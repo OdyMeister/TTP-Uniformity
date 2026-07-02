@@ -1,0 +1,11 @@
+n=4
+RF:
+Total count:             100096
+Total placements:        11194726501
+Total attempts:          4464072865
+
+DFS:
+Total count:             100096
+Total recursive calls:   1359922
+Total placements:        7045027
+Total attempts:          100096
