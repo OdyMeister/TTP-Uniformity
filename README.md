@@ -1,8 +1,7 @@
 generate_TTP.cpp generates valid TTP schedules using DFS with pruning.
 Some helper functions, including initialization and validitiy checks, and data structures are implemented in the TTP_helpers.cpp file
 Parallel implementations using OpenMP and MPI are in parallel_TTP.cpp.
-
-Benchmark data, and a jupyter notebook with plots are in the benchmarks subdirectory.
+sampler.cpp uses most of the same code to randomly sample valid TTP schedules.
 
 To compile, use `make`.
 To run, use `./run`.
@@ -14,5 +13,5 @@ To run, use `./run`.
 - THREAD_ITER: Number of BFS iterations for task list creation
 - MAX: Optional argument to specify the maximum number of iterations for the main loop. Default is maximum 64 bit integer value.
 
-If running on DAS, make sure to use `module load openmpi/gcc/64` to enable MPI compilation.
-Furthermore, make sure to use slurm or prun to run experiments. Some sbatch scripts are provided.
+Make sure to use `module load openmpi/gcc/64` to enable MPI compilation.
+Furthermore, make sure to use slurm or prun to run experiments.
