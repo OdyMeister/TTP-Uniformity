@@ -1,4 +1,4 @@
-generate_TTP.cpp contains most code from the TTP.py file.
+generate_TTP.cpp generates valid TTP schedules using DFS with pruning.
 Some helper functions, including initialization and validitiy checks, and data structures are implemented in the TTP_helpers.cpp file
 Parallel implementations using OpenMP and MPI are in parallel_TTP.cpp.
 
